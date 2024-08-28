@@ -1,0 +1,165 @@
+/* General */
+body {
+    font-family: Arial, sans-serif;
+    color: white;
+    background-color: black;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    background-color: black;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.netflix-logo {
+    width: 120px;
+}
+
+.navbar-nav {
+    flex-direction: row;
+}
+
+.navbar-nav .nav-item {
+    margin-left: 20px;
+}
+
+.hero-section {
+    background-image: url('imagenes/background.jpg');
+    background-size: cover;
+    color: white;
+    padding: 100px 0;
+}
+
+.hero-title {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+.hero-subtitle {
+    font-size: 1.25rem;
+    margin-bottom: 20px;
+}
+
+.hero-text {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+}
+
+.form-inline .form-control {
+    max-width: 300px;
+    width: 100%;
+}
+
+.info-section {
+    padding: 50px 0;
+    background-color: black; /* Fondo negro */
+}
+
+.info-section h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.info-section p {
+    font-size: 1.5rem;
+}
+
+.info-section .info-block {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-bottom: 50px;
+    border-bottom: 1px solid #333; /* Línea de separación */
+    padding-bottom: 30px;
+}
+
+.info-section .info-block:last-child {
+    border-bottom: none;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+.info-section .info-block img {
+    max-width: 100%;
+    height: auto;
+    border: 1px solid #333;
+    border-radius: 8px;
+    margin-top: 20px;
+}
+
+.info-section .info-block .info-text {
+    flex: 1;
+    padding: 20px;
+}
+
+.info-section .info-block:nth-child(even) .info-text {
+    order: 2;
+}
+
+.faq-section {
+    background-color: #222;
+    padding: 50px 0;
+    border-top: 1px solid #333;
+}
+
+.faq-section h2 {
+    font-size: 2rem;
+    margin-bottom: 40px;
+}
+
+.faq-section .card {
+    background-color: #333;
+    border: none;
+    margin-bottom: 10px;
+}
+
+.faq-section .card-header {
+    background-color: #333;
+    border: none;
+    padding: 0;
+}
+
+.faq-section .card-header button {
+    color: white;
+    text-align: left;
+    width: 100%;
+    padding: 15px 20px;
+    font-size: 1.1rem;
+}
+
+.faq-section .card-body {
+    background-color: #222;
+    color: #fff;
+    padding: 20px;
+}
+
+.footer {
+    background-color: black;
+    color: white;
+    padding: 30px 0;
+}
+
+.footer p {
+    margin: 0;
+}
+
+.footer .list-inline {
+    margin-bottom: 0;
+}
+
+.footer .list-inline-item {
+    margin: 0 10px;
+}
+
+.footer .list-inline-item a {
+    color: white;
+    text-decoration: none;
+}
+
+.footer .list-inline-item a:hover {
+    text-decoration: underline;
+}

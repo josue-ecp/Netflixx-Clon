@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netflix - Suscripción</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles2.css">
+</head>
+<body>
+    <header class="header">
+        <div class="logo">
+            <img src="imagenes/netflix.png.png" alt="Netflix" class="netflix-logo">
+        </div>
+        <nav class="navbar navbar-expand-lg navbar-dark">
+            <div class="ml-auto">
+                <a href="login.html" class="btn btn-outline-light mr-2">Iniciar sesión</a>
+                <button class="btn btn-danger">Registrarse</button>
+            </div>
+        </nav>
+    </header>
+
+    <section class="hero-section text-center">
+        <div class="container">
+            <h1 class="hero-title">Películas y series ilimitadas y mucho más</h1>
+            <p class="hero-subtitle">Disfruta donde quieras. Cancela cuando quieras.</p>
+            <p class="hero-text">¿Quieres ver Netflix ya? Ingresa tu email para crear una cuenta o reiniciar tu membresía de Netflix.</p>
+            <form class="form-inline justify-content-center">
+                <input type="email" class="form-control mr-2 mb-2" placeholder="Email">
+                <button type="submit" class="btn btn-danger mb-2">Comenzar</button>
+            </form>
+        </div>
+    </section>
+
+    <section class="info-section py-5 text-white">
+        <div class="container">
+            <div class="info-block">
+                <div class="info-text">
+                    <h2>Disfruta en tu TV</h2>
+                    <p>Ve en smart TV, PlayStation, Xbox, Chromecast, Apple TV, reproductores de Blu-ray y más.</p>
+                </div>
+                <div class="info-image">
+                    <img src="imagenes/tv.jpeg" alt="TV" class="img-fluid">
+                </div>
+            </div>
+            <div class="info-block">
+                <div class="info-image">
+                    <img src="imagenes/devices.png" alt="Devices" class="img-fluid">
+                </div>
+                <div class="info-text">
+                    <h2>Disfruta donde quieras</h2>
+                    <p>Películas y series ilimitadas en tu teléfono, tablet, laptop y TV.</p>
+                </div>
+            </div>
+            <div class="info-block">
+                <div class="info-text">
+                    <h2>Crea perfiles para niños</h2>
+                    <p>Los niños vivirán aventuras con sus personajes favoritos en un espacio diseñado exclusivamente para ellos, sin costo con tu membresía.</p>
+                </div>
+                <div class="info-image">
+                    <img src="imagenes/niños.png" alt="Kids" class="img-fluid">
+                </div>
+            </div>
+            <div class="info-block">
+                <div class="info-image">
+                    <img src="imagenes/mobile.jpg" alt="Mobile" class="img-fluid">
+                </div>
+                <div class="info-text">
+                    <h2>Descarga tus series para verlas offline</h2>
+                    <p>Ve Netflix en un avión, un tren o un submarino...</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="faq-section py-5">
+        <div class="container">
+            <h2 class="text-center mb-4">Preguntas frecuentes</h2>
+            <div class="accordion" id="faqAccordion">
+                <div class="card">
+                    <div class="card-header" id="faqOne">
+                        <h5 class="mb-0">
+                            <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                ¿Qué es Netflix?
+                            </button>
+                        </h5>
+                    </div>
+                    <div id="collapseOne" class="collapse" aria-labelledby="faqOne" data-parent="#faqAccordion">
+                        <div class="card-body">
+                            Netflix es un servicio de streaming que ofrece una amplia variedad de programas, películas, anime, documentales y más.
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-header" id="faqTwo">
+                        <h5 class="mb-0">
+                            <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">
+                                ¿Cuánto cuesta Netflix?
+                            </button>
+                        </h5>
+                    </div>
+                    <div id="collapseTwo" class="collapse" aria-labelledby="faqTwo" data-parent="#faqAccordion">
+                        <div class="card-body">
+                            Los planes de Netflix varían de precio según las características y disponibilidad.
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-header" id="faqThree">
+                        <h5 class="mb-0">
+                            <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="true" aria-controls="collapseThree">
+                                ¿Dónde puedo ver Netflix?
+                            </button>
+                        </h5>
+                    </div>
+                    <div id="collapseThree" class="collapse" aria-labelledby="faqThree" data-parent="#faqAccordion">
+                        <div class="card-body">
+                            Netflix se puede ver en cualquier dispositivo con conexión a internet que cuente con la aplicación de Netflix.
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-header" id="faqFour">
+                        <h5 class="mb-0">
+                            <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseFour" aria-expanded="true" aria-controls="collapseFour">
+                                ¿Cómo cancelo?
+                            </button>
+                        </h5>
+                    </div>
+                    <div id="collapseFour" class="collapse" aria-labelledby="faqFour" data-parent="#faqAccordion">
+                        <div class="card-body">
+                            Puedes cancelar tu suscripción en cualquier momento a través de la configuración de tu cuenta.
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-header" id="faqFive">
+                        <h5 class="mb-0">
+                            <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseFive" aria-expanded="true" aria-controls="collapseFive">
+                                ¿Qué puedo ver en Netflix?
+                            </button>
+                        </h5>
+                    </div>
+                    <div id="collapseFive" class="collapse" aria-labelledby="faqFive" data-parent="#faqAccordion">
+                        <div class="card-body">
+                            Netflix ofrece una amplia variedad de contenido, incluyendo series originales, películas, documentales y más.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer bg-dark text-white text-center py-3">
+        <div class="container">
+            <p>¿Preguntas? Llama al 800 953 1430</p>
+            <ul class="list-inline">
+                <li class="list-inline-item"><a href="#" class="text-white">Preguntas frecuentes</a></li>
+                <li class="list-inline-item"><a href="#" class="text-white">Cuenta</a></li>
+                <li class="list-inline-item"><a href="#" class="text-white">Centro de ayuda</a></li>
+                <li class="list-inline-item"><a href="#" class="text-white">Prensa</a></li>
+                <li class="list-inline-item"><a href="#" class="text-white">Empleo</a></li>
+                <li class="list-inline-item"><a href="#" class="text-white">Privacidad</a></li>
+                <li class="list-inline-item"><a href="#" class="text-white">Términos de uso</a></li>
+                <li class="list-inline-item"><a href="#" class="text-white">Contáctanos</a></li>
+                <li class="list-inline-item"><a href="#" class="text-white">Avisos legales</a></li>
+            </ul>
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+   
+</body> 
+</html>
